@@ -15,7 +15,7 @@ export const LoadingToRedirect = () => {
 
   return (
     <div>
-      <p>Redirecting you in {count} seconds.</p>
+      <p style={{marginTop:'200px'}}>Redirecting you in {count} seconds.</p>
     </div>
   );
 };
