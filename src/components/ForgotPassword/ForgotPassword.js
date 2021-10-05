@@ -45,14 +45,13 @@ const ForgotPassword = () => {
       ) : null}
 
       <div id="register-form">
-        <form className="form-signin" onSubmit="return false">
-          <p style={{ textAlign: "center" }} className="h6" className="text-danger">
+        <form className="form-signin" >
+          <p style={{ textAlign: "center" }} className="h6 text-danger" >
             {errorMessage}
           </p>
         
           <p style={{ fontSize: "14px" }}>
-            Forgot your account’s password or having trouble logging into your
-            Team? Enter your email address and we’ll send you a recovery link.
+            Forgot your account’s password or having trouble logging in? Enter your email address and we’ll send you a recovery link.
           </p>
 
           <input

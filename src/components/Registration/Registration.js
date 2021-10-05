@@ -78,11 +78,11 @@ const Registration = (props) => {
       ) : null}
 
       <div id="register-form">
-        <form className="form-signin" onSubmit="return false">
-          <p style={{ textAlign: "center" }} className="h6" className="text-danger">
+        <form className="form-signin" >
+          <p style={{ textAlign: "center" }} className="h6 text-danger" >
             {errorSignUp}
           </p>
-          <p style={{ textAlign: "center" }} className="h6" className="text-danger">
+          <p style={{ textAlign: "center" }} className="h6 text-danger">
             {state.errorMessage}
           </p>
           <h1
