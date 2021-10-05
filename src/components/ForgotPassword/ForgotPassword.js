@@ -7,13 +7,13 @@ const ForgotPassword = () => {
   const [state, setState] = useState({
     email: "",
     isDisabled: false,
-    errorMessage: null,
+ 
   });
 
-  const { email, isDisabled, errorMessage } = state;
+  const { email, isDisabled} = state;
 
   let resetSuccess = useSelector((state) => state.user.resetSuccess);
-  let error = useSelector((state) => state.user.error);
+  let errorMessage = useSelector((state) => state.user.error);
 
   const dispatch = useDispatch();
 
@@ -26,7 +26,7 @@ const ForgotPassword = () => {
     event.preventDefault();
     dispatch(resetPasswordInitiate(email));
 
-    setState({ isDisabled: true, errorMessage: error });
+    setState({ isDisabled: true });
   };
 
   return (
