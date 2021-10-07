@@ -124,7 +124,9 @@ const Login = () => {
             required
             value={password}
           />
-               <button
+               <button 
+className="forgot"
+
             onClick={resetPassword}
             style={{
               outline: "none",
