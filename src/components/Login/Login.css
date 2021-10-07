@@ -108,6 +108,10 @@
       margin: 0 auto;
       margin-bottom: 10px;
     }
+      #logreg-forms .forgot {
+      width: 80%;
+     
+    }
     #logreg-forms .social-btn {
       font-size: 15px;
       font-weight: 100;
